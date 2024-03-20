@@ -140,7 +140,7 @@ h6 {
 */
 @media (max-width: 1199px) {
   #hero {
-    background: url("../img/mobile-waves.jpg") top center;
+    background: url("../img/blueLogo.jpg") top center;
   }
 
   #header {
@@ -299,7 +299,7 @@ h6 {
 
 @media (max-width: 900px) {
   #hero {
-    background: url("../img/mobile-waves.jpg") top center;
+    background: url("../img/blueLogo.jpg") top center;
   }
 
   #hero h1 {
