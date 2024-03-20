@@ -258,6 +258,8 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
+  width: 100%; /* Cover entire width of parent container */
+  height: 100%; /* Cover entire height of parent container */
   z-index: 1;
 }
 
