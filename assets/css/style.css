@@ -136,13 +136,8 @@ h6 {
   padding-left: 30px;
   padding-right: 30px;
 }
-/*@media (max-width: 1199px) {
-*/
-@media (max-width: 1199px) {
-  #hero {
-    background: url("../img/blueLogo.jpg") top center;
-  }
 
+@media (max-width: 1199px) {
   #header {
     left: -300px;
   }
@@ -249,19 +244,17 @@ h6 {
   background: url("../img/hero-bg-filtered.jpg") top center;
   background-size: cover;
 }
-/*
+
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  background: rgba(5, 13, 24, 0);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-  width: 100%; Cover entire width of parent container 
-  height: 100%;  Cover entire height of parent container 
   z-index: 1;
-} */
+}
 
 #hero .hero-container {
   position: relative;
@@ -297,13 +290,13 @@ h6 {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 850px) {
   #hero {
-    background: url("../img/blueLogo.jpg") top center;
-    width: 800px;
-    height: 800px;
+    width: 100%;
+    height: 100vh;
+    background: url("../img/blueLogo-filtered.jpg") top center;
+    background-size: cover;
   }
-
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -531,8 +524,8 @@ section {
 .resume .resume-item::before {
   content: "";
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 16px;
+  height: 16px;
   border-radius: 50px;
   left: -9px;
   top: 0;
@@ -1093,7 +1086,7 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
+F #footer {
   padding: 15px;
   color: #f4f6fd;
   font-size: 14px;
